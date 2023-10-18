@@ -1,0 +1,29 @@
+.profile.container {
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: var(--font-md);
+    padding: var(--space-md);
+}
+
+.profile.container div.section {
+    border: 1px solid var(--lite_blue);
+    margin: var(--space-md) 0;
+    padding: var(--space-sm);
+    background-color: #fdfdfd;
+}
+
+
+.profile.container div.section header.header {
+    margin-bottom: var(--space-md);
+    padding: var(--space-sm);
+    background-color: var(--lite_blue);
+    font-weight: bolder;
+}
+
+.profile.container div.section .body {
+    margin-bottom: var(--space-lg);
+}
+
+.profile.container div.section .body>p {
+    margin-top: var(--space-xs);
+}

@@ -1,0 +1,76 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    isolation: isolate;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+img,
+svg,
+picture,
+video,
+canvas {
+    display: block;
+    max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+
+/** button **/
+button {
+    font-size: small;
+    color: var(--black);
+    background-color: var(--lite_blue);
+    font-weight: bold;
+    border-radius: 3px;
+    border: 1px solid var(--gray);
+    padding: 4px 17px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(.97);
+}
+
+a {
+    color: var(--blue);
+    text-decoration: none;
+}
+a:active {
+    transform: scale(.97);
+}
